@@ -1,5 +1,5 @@
 body {
-    background:greenyellow;
+    background:#3B3C40;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -7,16 +7,34 @@ body {
     display:flex;
     padding: 10px;
     margin: 10px;
-    background: pink;
+    background: #D9B60B;
+    border-radius: 5px;
     
 }
 
 .assingment img{
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 4px solid #735E1F;
+}
+.assingment img:hover{
+
+    border: 4px solid #3B3C40;
 }
 
 h1{
-    color:blueviolet;
+    color:#D9A60D;
     text-align: center;
+}
+h1:hover{
+    color: #A68217;
+}
+
+a:hover{
+    color: #3B3C40;
+}
+
+a{
+    text-decoration: none;
+    color: #735E1F;
 }
