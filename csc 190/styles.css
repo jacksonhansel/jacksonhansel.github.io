@@ -3,9 +3,14 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.assignments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .assingment{
-    display:flex;
-    padding: 10px;
+    width: 22%;
+    padding: 20px 10px;
     margin: 10px;
     background: #D9B60B;
     border-radius: 5px;
@@ -16,6 +21,8 @@ body {
     width: 200px;
     margin: 10px;
     border: 4px solid #735E1F;
+    display: block;
+    margin: auto;
 }
 .assingment img:hover{
 
@@ -32,6 +39,10 @@ h1:hover{
 
 a:hover{
     color: #3B3C40;
+}
+
+h2{
+    text-align: center;
 }
 
 a{
